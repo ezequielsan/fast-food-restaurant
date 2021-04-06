@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Site URL: [Add live site URL here](https://fast-food-restaurant.netlify.app)
+- Site URL: [https://fast-food-restaurant.netlify.app](https://fast-food-restaurant.netlify.app)
 
 ## My process
 
