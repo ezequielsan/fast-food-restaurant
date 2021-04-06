@@ -1,0 +1,243 @@
+/* Setings Default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --color-yelow: #e7bf32;
+  --color-white: #ffffff;
+  --color-black: #282727;
+
+  --font-family: "Lato", sans-serif;
+  --font-title: "Bangers", cursive;
+}
+
+html::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/queijo.png) no-repeat center;
+  width: 210px;
+  height: 161px;
+  position: absolute;
+  bottom: 0;
+  right: 45%;
+
+  z-index: -1;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  background: url(../img/background.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--color-white);
+}
+
+body::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/batata-1.png) no-repeat center;
+  width: 81px;
+  height: 93px;
+  position: absolute;
+  bottom: 4%;
+  right: 3%;
+
+  z-index: -1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--color-white);
+}
+
+p {
+  color: var(--color-white);
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+/* Navbar */
+#header {
+  width: 100%;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+#header #navbar ul li a {
+  padding: 10px;
+  transition: 0.4s ease;
+}
+
+#header #navbar ul li a:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+#header #social_media ul li {
+  margin-right: 6px;
+}
+
+#header #social_media ul li:last-child {
+  margin-right: 0;
+}
+
+#header #social_media ul li a {
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-size: 0.875rem;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease;
+}
+
+#header #social_media ul li a:hover {
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+#header #social_media p {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Main */
+#wrapper {
+  width: 100%;
+  position: relative;
+}
+
+#wrapper::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/hanburguer.png) no-repeat center;
+  width: 452px;
+  height: 473px;
+  position: absolute;
+  top: -20px;
+  right: 5%;
+
+  z-index: -1;
+}
+
+#wrapper .container {
+  margin-top: 2rem;
+}
+
+#wrapper h1 {
+  font-family: var(--font-title);
+  font-size: 4rem;
+  color: var(--color-yelow);
+  letter-spacing: 5px;
+}
+
+#wrapper h1::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/batata-3.png) no-repeat center;
+  width: 75px;
+  height: 96px;
+  position: absolute;
+  top: 0;
+  right: 45%;
+
+  z-index: -1;
+}
+
+#wrapper h2 {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  color: var(--color-white);
+}
+
+#wrapper h2::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/batata-4.png) no-repeat center;
+  width: 80px;
+  height: 94px;
+  position: absolute;
+  top: 23%;
+  right: 62%;
+
+  z-index: -1;
+}
+
+#wrapper span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  line-height: 2rem;
+  color: var(--color-yelow);
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+#wrapper p {
+  max-width: 300px;
+  margin: 1rem 0 3rem 0;
+}
+
+#wrapper p::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/batata-5.png) no-repeat center;
+  width: 112px;
+  height: 56px;
+  position: absolute;
+  top: 55%;
+  right: 45%;
+
+  z-index: -1;
+}
+
+#wrapper a {
+  padding: 10px 28px;
+  background-color: var(--color-yelow);
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+#wrapper a::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/batata-2.png) no-repeat center;
+  width: 109px;
+  height: 54px;
+  position: absolute;
+  bottom: 0;
+  right: 63%;
+
+  z-index: -1;
+}
