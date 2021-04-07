@@ -19,7 +19,7 @@ body {
   height: 100vh;
   font-size: 1rem;
   font-family: var(--font-family);
-  background: url("../img/background-2.png") no-repeat;
+  background: url("../img/background.png") no-repeat;
   background-size: cover;
   background-attachment: center;
   color: var(--color-white);
